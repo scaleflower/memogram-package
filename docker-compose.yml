@@ -18,7 +18,7 @@ services:
     container_name: memogram
     restart: always
     environment:
-      - BOT_TOKEN=7732237315:AAFD_K5kCGkKcyR4cKolWFUnZ_dEg5MtSgQ
+      - BOT_TOKEN=xxxxxxxx:xxxxxxxxxxxx  --修改成你自己的bot token
       - SERVER_ADDR=memos:5230
     depends_on:
       - memos
