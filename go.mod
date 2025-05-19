@@ -1,12 +1,13 @@
 module github.com/usememos/memogram
 
-go 1.23
+go 1.24
+
 toolchain go1.24.1
 
 require (
 	github.com/caarlos0/env v3.5.0+incompatible
 	github.com/usememos/memos v0.24.2
-	google.golang.org/grpc v1.72.0
+	google.golang.org/grpc v1.72.1
 )
 
 require (
